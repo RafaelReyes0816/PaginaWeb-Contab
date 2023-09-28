@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.button img {
+    width: 24px;
+    height: 24px;
+}
+.button:hover {
+    background-color: #555;
+}
+.logo {
+    border: 1px solid white;
+    padding: 5px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.nav {
+    margin-right: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nav a:hover {
+    border-bottom: 2px solid white;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.card h2 {
+    margin-top: 10px;
+}
+.card a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.card a:hover {
+    background-color: #555;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+#year {
+    font-weight: bold;
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenido {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que las cards se envuelvan a una nueva línea si no caben en una sola línea */
+    gap: 20px; /* Espacio entre las cards */
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}

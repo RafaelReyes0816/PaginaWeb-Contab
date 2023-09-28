@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicaciones Contables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" />
+        </div>
+        <div class="header-buttons">
+            <a href="https://wa.link/vc51rf" class="button">
+                <img src="src/img/whatsapp.png" alt="whatsapp" />
+            </a>
+            <a href="https://discordapp.com/users/385871294316412940" class="button">
+                <img src="src/img/logodiscord2.png" alt="Discord" />
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <img src="src/img/Calc_Conta.png" alt="Imagen 1" />
+            <h2>Calculadora Contable</h2>
+            <a href="Calculadora_Contable.html">Ver más</a>
+        </div>
+
+        <div class="card">
+            <img src="src/img/Finanz.png" alt="Imagen 2" />
+            <h2>FinanzApp</h2>
+            <a href="FinanzApp.html">Ver más</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Desarrollado por AppCrafters</p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
